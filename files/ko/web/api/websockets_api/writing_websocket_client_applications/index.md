@@ -42,7 +42,7 @@ Firefox 11부터는 보통 에러 메세지에 대한 설명이 Mozillia 플랫�
 
 ### 예제
 
-이 간단한 예제는 새 웹소켓 오브젝트를 생성하여 `ws://www.example.com/socketserver` 서버에 접속하는것을 보여줍니다. 이 예제에서는 커스텀 프로토콜인 "protocolOne" 을 리퀘스트에 같이 지정합니다. (이 프로토콜을 지정하는 부분은 생략될 수 있습니다.)
+이 간단한 예제는 새 WebSocket 오브젝트를 생성하여 `ws://www.example.com/socketserver` 서버에 접속하는것을 보여줍니다. 이 예제에서는 커스텀 프로토콜인 "protocolOne" 을 리퀘스트에 같이 지정합니다. (이 프로토콜을 지정하는 부분은 생략될 수 있습니다.)
 
 ```js
 var exampleSocket = new WebSocket(
